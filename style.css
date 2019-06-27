@@ -72,13 +72,13 @@ body  {
 }
 
 .outsideBoxes {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 75px;
     padding-bottom: 50px;
     display: block
 }
 .insideBoxes {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 50px;
     padding-bottom: 50px;
     display: block
@@ -93,6 +93,9 @@ body  {
     border-left: 50px;
 }
 #AboutNav {
-    padding-top: 35px;
+    padding-top: 75px;
     padding-left: 100px;
+}
+.aboutLinks {
+    color: #4f5d74;
 }
