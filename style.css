@@ -75,11 +75,13 @@ body  {
     margin-left: 70px;
     margin-top: 75px;
     padding-bottom: 50px;
+    display: block
 }
 .insideBoxes {
     margin-left: 70px;
     margin-top: 50px;
     padding-bottom: 50px;
+    display: block
 
 }
 #midbox {
