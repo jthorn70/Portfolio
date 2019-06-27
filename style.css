@@ -70,3 +70,26 @@ body  {
     background-repeat: unset;
     background-size: 1250px;
 }
+
+.outsideBoxes {
+    margin-left: 70px;
+    margin-top: 75px;
+    padding-bottom: 50px;
+}
+.insideBoxes {
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+#midbox {
+    margin-bottom: 150px !important;  
+}
+#me {
+    border-top: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#AboutNav {
+    padding-top: 25px;
+}
