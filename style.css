@@ -17,6 +17,12 @@
     background-color: #4f5d74 !important;
 
 }
+#ContactPage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/contactBG.png");
+    background-size: 100%;
+}
 body  {
     /* background-color: #4f5d74 !important; */
     height:100vh;
@@ -118,18 +124,46 @@ body  {
     padding-top: 50px;
     border-left: 50px;
 }
+#Contact {
+    border-top: 50px;
+    padding-top: 50px;
+    border-left: 50px;
+}
 #AboutNav {
     padding-top: 50px;
     padding-left: 150px;
 
 }
+#ContactNav {
+    padding-top: 100px;
+}
 .aboutLinks {
     color: #4f5d74 !important;
+}
+.contactLinks {
+    color: #bfc0c0 !important;
 }
 .projectButton {
     margin-left: 25px;
     margin-top: 75px;
 }
 .orangeBox {
-    margin-top: 60px;
+    /* margin-top: 60px; */
+}
+#Contact {
+    margin-left: 150px;
+}
+.contactBox {
+    height: 75vh;
+    width: 80vw;
+    margin-left: 150px;
+    background-image: url("./images/contactBox.png");
+    background-size: 100%;
+    display: block
+}
+.contactButtons {
+    margin: 200px 100px 0px 100px;
+}
+#mailButton {
+    margin-left: 75px;
 }
