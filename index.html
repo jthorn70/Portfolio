@@ -17,7 +17,7 @@
     <div id="HomePage" class="container-fluid ">
       <div>
         <div class="row">
-          <div class="col-3 initials"><img data-tilt data-tilt-scale="1.1" src="./images/JT.png" alt="InitialsLogo" height="80" width="60">
+          <div class="col-3 initials"><img data-tilt src="./images/JT.png" alt="InitialsLogo" height="80" width="60">
             </div>
           <div class="col-5 customNav">
                 <ul class="nav justify-content-center">
@@ -52,7 +52,7 @@
 
 <div id="AboutPage" class="container-fluid">
     <div class="row">
-            <div id="Me" class="col-3 "><img data-tilt data-tilt-scale="1.1" src="./images/Me.png" alt="InitialsLogo" height="100" width="150">
+            <div id="Me" class="col-3 "><img data-tilt src="./images/Me.png" alt="InitialsLogo" height="100" width="150">
             </div>
           <div id="AboutNav" class="col-5 ">
                 <ul  class="nav justify-content-center">
@@ -72,15 +72,17 @@
         </div>
     </div>
 
-    <div class="two">
-        <div id="infoBoxes" class="row">
+    <div class="two" >
+        <div id="infoBoxes" class="row" >
             <div id="leftBox" class="col-4"><img class="outsideBoxes" src="images/BioBox.png" alt="Bio Box" height="650" width="300" ></div>
             <div id="midBox" class="col-4"><img class="insideBoxes" src="images/BioBox.png" alt="Bio Box" height="650" width="300"></div>
             <div id="rightBox" class="col-4"><img class="outsideBoxes" src="images/BioBox.png" alt="Bio Box" height="650" width="300" ></div>
         </div>
     </div>
 
-    <div class="three">
+    <div class="three" data-paroller-factor="-0.5"
+    data-paroller-factor-sm="-0.2"
+    data-paroller-factor-xs="-0.1">
 
     </div>
 
@@ -129,7 +131,7 @@
                     </div>
             <div class="col-5 orangeBox">
                 <div>
-                        <img src="./images/projects.png" alt="InitialsLogo" height="75" width="300">
+                        <img data-tilt src="./images/projects.png" alt="projects" height="75" width="300">
                 </div>
                 <div>
                     <img src="./images/orangeBox.png" alt="InitialsLogo" height="600" width="400">
@@ -145,7 +147,9 @@
       <!-- CONTACT PAGE BELOW HERE -->
 
 
-<div id="ContactPage" class="container-fluid">
+<div id="ContactPage" class="container-fluid" data-paroller-factor="0.5"
+data-paroller-factor-sm="-0.2"
+data-paroller-factor-xs="-0.1">
     <div class="row">
             <div id="Contact" class="col-3 "><img data-tilt src="./images/Contact.png" alt="InitialsLogo" height="100" width="250">
             </div>
@@ -167,7 +171,9 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row TEST" data-paroller-factor="-0.5"
+    data-paroller-factor-sm="-0.2"
+    data-paroller-factor-xs="-0.1">
         <div class="contactBox">
             <div class="row">
                 <div id="mailButton">
@@ -198,5 +204,8 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/paroller.js@1.4.6/dist/jquery.paroller.min.js"></script>
+    <script src="./main.js"></script>
+</body>
 </html>
