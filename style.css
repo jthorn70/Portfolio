@@ -5,10 +5,17 @@
 
 }
 #AboutPage {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: #ffc9b6;
     padding-left: 0px;
+}
+#WorkPage {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #4f5d74 !important;
+
 }
 body  {
     /* background-color: #4f5d74 !important; */
@@ -24,9 +31,15 @@ body  {
 .nav-link {
     color: #ef8356 !important;
 }
-.jumbo {
+.customNav {
     margin-top: 200px;
     color: #bfc0c0;
+    justify-content: center;
+}
+
+.customWorkNav {
+    margin-top: 15px;
+    color: #4f5d74 !important;
     justify-content: center;
 }
 .jumbotron {
@@ -46,6 +59,19 @@ body  {
 	-webkit-animation: barberpole 10s infinite linear;
   animation: barberpole 5.6s infinite linear;
 }
+.workBarber {
+    margin-left: -15px;
+	height:100vh;
+	width:240px;
+	position: inherit;
+	background:#ef8356;
+	background-color: -webkit-linear-gradient(-45deg, transparent 25%, #ef8356 25%, #ef8356 50%, transparent 50%, transparent 75%, #ef8356 75%);
+	background: -moz-linear-gradient(-45deg, transparent 25%, #ef8356 25%, #ef8356 50%, transparent 50%, transparent 75%, #ef8356 75%);
+	background: -o-linear-gradient(-45deg, transparent 25%, #ef8356 25%, #ef8356 50%, transparent 50%, transparent 75%, #ef8356 75%);
+	background: linear-gradient(-45deg, transparent 25%, #ef8356 25%, #ef8356 50%, transparent 50%, transparent 75%, #ef8356 75%);
+	background-size: 27px 27px;
+	-webkit-animation: barberpole 100s infinite linear;
+  animation: barberpole 6.6s infinite linear;}
 .lead .display-4{
     text-align: right;
 }
@@ -65,7 +91,7 @@ body  {
 }
 .three {
     height: 67vh;
-    width: 100%;
+    width: 100vw;
     background-image: url("./images/orangeBG.png");
     background-repeat: unset;
     background-size: 1250px;
@@ -93,9 +119,17 @@ body  {
     border-left: 50px;
 }
 #AboutNav {
-    padding-top: 75px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 150px;
+
 }
 .aboutLinks {
-    color: #4f5d74;
+    color: #4f5d74 !important;
+}
+.projectButton {
+    margin-left: 25px;
+    margin-top: 75px;
+}
+.orangeBox {
+    margin-top: 60px;
 }
