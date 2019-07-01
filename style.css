@@ -51,10 +51,14 @@ body  {
 .jumbotron {
     background-color: #4f5d74 !important;
 }
+.stripes {
+    padding-right: 0px !important;
+
+}
 .barber{
     margin-left: 225px;
 	height:100vh;
-	width:240px;
+	width:15vw;
 	position: inherit;
 	background:#ef8356;
 	background-color: -webkit-linear-gradient(-45deg, transparent 25%, #ef8356 25%, #ef8356 50%, transparent 50%, transparent 75%, #ef8356 75%);
@@ -64,11 +68,12 @@ body  {
 	background-size: 27px 27px;
 	-webkit-animation: barberpole 10s infinite linear;
   animation: barberpole 5.6s infinite linear;
+    float: right;
 }
 .workBarber {
     margin-left: -15px;
 	height:100vh;
-	width:240px;
+	width:15vw;
 	position: inherit;
 	background:#ef8356;
 	background-color: -webkit-linear-gradient(-45deg, transparent 25%, #ef8356 25%, #ef8356 50%, transparent 50%, transparent 75%, #ef8356 75%);
@@ -111,7 +116,7 @@ body  {
 }
 .insideBoxes {
     margin-left: 90px;
-    margin-top: 50px;
+    /* margin-top: 25px; */
     padding-bottom: 50px;
     display: block
 
